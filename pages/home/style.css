@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Calibri;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #353535, #c6c6c6);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title h1{
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 30%;
+  margin-bottom: 10px;
+  background-color: rgb(85, 85, 85);
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+form input{
+  width: 80%;
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+  text-decoration: none;
+  background-color: gray;
+  color: white;
+}
+
+form input::placeholder{
+  color: white;
+}
+
+form button{
+  background-color: rgb(65, 88, 172);
+  font-size: 25px;
+  width: 50%;
+  color: rgb(251, 251, 251);
+  border-radius: 40px;
+  padding: 5px;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+form button:hover{
+  background-color: rgb(3, 55, 198);
+  color: white;
+}
+
+.user{
+  display: flex;
+  background-color: rgb(85, 85, 85);
+  border-radius: 4px;
+  padding: 8px;
+  color: white;
+  gap: 10px;
+  margin: 10px;
+  width: 15%;
+  max-width: 25%;
+  width: 1000px;
+  justify-content: space-between;
+  font-weight: bold;
+  & span{
+    font-weight: normal;
+  }
+}
+
+.user button{
+  width: 30%;
+  height: 10%;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  transition: 0.2s ease;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+}
+
+.user button:hover{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  scale:calc(1.03)
+}
