@@ -10,7 +10,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, #353535, #c6c6c6);
+  background: linear-gradient(to top, #432d55, #c7c7d5);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -22,7 +22,7 @@ html, body {
   font-weight: bold;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .container{
